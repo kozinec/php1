@@ -6,27 +6,27 @@ namespace App\OOP;
 
 class Human
 {
-    public function Run()
+    public function run()
     {
         print "The human can RUN";
     }
 
-    public function Speak()
+    public function speak()
     {
         print "The human can Speak";
     }
 
-    public function Eat()
+    public function eat()
     {
         print "The human can Eat";
     }
 
-    protected function Secret()
+    protected function secret()
     {
         print "Only child of Human and Human cat know this secret information";
     }
 
-    private function TopSecret()
+    private function topsecret()
     {
         print "Only Humans cat know this Top Secret information";
     }
@@ -37,7 +37,7 @@ $Peter = new Human();
 
 class Ukrainian extends Human
 {
-  protected function Secret()
+  protected function secret()
   {
     print "Only child of Ukrainian and Ukrainian cat know this secret information";
   }
