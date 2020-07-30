@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3196cfe3-160f-43d6-91f7-0d5de56da6df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OOP/human.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/OOP/SayClass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/human.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/OOP/human.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,14 +143,18 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1fHEkGVSuidimcerBopZoeUwENp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -156,6 +162,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -174,6 +185,7 @@
       <workItem from="1595866764766" duration="1508000" />
       <workItem from="1595943289220" duration="109000" />
       <workItem from="1595943490970" duration="2239000" />
+      <workItem from="1596085815310" duration="2765000" />
     </task>
     <servers />
   </component>
@@ -192,14 +204,39 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="524" y="166" width="381" height="575" key="NewPhpClassDialog" timestamp="1595943580904">
-      <screen x="0" y="27" width="1440" height="873" />
+    <state x="2056" y="211" width="348" height="519" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596087745956">
+      <screen x="1440" y="0" width="1600" height="900" />
+    </state>
+    <state x="2056" y="211" width="348" height="519" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1440.873/1440.0.1600.900@1440.0.1600.900" timestamp="1596087745956" />
+    <state width="1554" height="216" key="GridCell.Tab.0.bottom" timestamp="1596088173210">
+      <screen x="1440" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="216" key="GridCell.Tab.0.bottom/0.27.1440.873/1440.0.1600.900@1440.0.1600.900" timestamp="1596088173210" />
+    <state width="1554" height="216" key="GridCell.Tab.0.center" timestamp="1596088173210">
+      <screen x="1440" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="216" key="GridCell.Tab.0.center/0.27.1440.873/1440.0.1600.900@1440.0.1600.900" timestamp="1596088173210" />
+    <state width="1554" height="216" key="GridCell.Tab.0.left" timestamp="1596088173210">
+      <screen x="1440" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="216" key="GridCell.Tab.0.left/0.27.1440.873/1440.0.1600.900@1440.0.1600.900" timestamp="1596088173210" />
+    <state width="1554" height="216" key="GridCell.Tab.0.right" timestamp="1596088173210">
+      <screen x="1440" y="0" width="1600" height="900" />
+    </state>
+    <state width="1554" height="216" key="GridCell.Tab.0.right/0.27.1440.873/1440.0.1600.900@1440.0.1600.900" timestamp="1596088173210" />
+    <state x="2022" y="143" width="381" height="575" key="NewPhpClassDialog" timestamp="1596087559615">
+      <screen x="1440" y="0" width="1600" height="900" />
     </state>
     <state x="524" y="166" width="381" height="575" key="NewPhpClassDialog/0.27.1440.873/1440.0.1600.900@0.27.1440.873" timestamp="1595943580904" />
-    <state x="596" y="388" width="397" height="158" key="NewPhpFileDialog" timestamp="1595871028030">
-      <screen x="0" y="27" width="1600" height="873" />
+    <state x="2022" y="143" key="NewPhpClassDialog/0.27.1440.873/1440.0.1600.900@1440.0.1600.900" timestamp="1596087559615" />
+    <state x="2036" y="372" width="397" height="158" key="NewPhpFileDialog" timestamp="1596086163356">
+      <screen x="1440" y="0" width="1600" height="900" />
     </state>
+    <state x="2036" y="372" key="NewPhpFileDialog/0.27.1440.873/1440.0.1600.900@1440.0.1600.900" timestamp="1596086163356" />
     <state x="596" y="388" width="397" height="158" key="NewPhpFileDialog/0.27.1600.873@0.27.1600.873" timestamp="1595871028030" />
     <state x="395" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1595866811930">
       <screen x="0" y="27" width="1600" height="873" />
